@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="600" viewBox="0 0 680 600" fill="none">
+  <defs>
+    <linearGradient id="screen" x1="168" y1="153" x2="366" y2="401" gradientUnits="userSpaceOnUse"><stop stop-color="#1C5144"/><stop offset="1" stop-color="#123F36"/></linearGradient>
+    <linearGradient id="metal" x1="285" y1="260" x2="562" y2="510" gradientUnits="userSpaceOnUse"><stop stop-color="#F6F4EE"/><stop offset=".5" stop-color="#C8CAC2"/><stop offset="1" stop-color="#E9E9DF"/></linearGradient>
+    <linearGradient id="phone" x1="211" y1="131" x2="402" y2="477" gradientUnits="userSpaceOnUse"><stop stop-color="#F8F8F1"/><stop offset="1" stop-color="#C7CEC5"/></linearGradient>
+    <linearGradient id="phoneScreen" x1="153" y1="154" x2="340" y2="450" gradientUnits="userSpaceOnUse"><stop stop-color="#E1ECCD"/><stop offset="1" stop-color="#B8D0AA"/></linearGradient>
+    <linearGradient id="tool" x1="430" y1="416" x2="487" y2="523" gradientUnits="userSpaceOnUse"><stop stop-color="#DABE88"/><stop offset="1" stop-color="#A3814E"/></linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="18" stdDeviation="15" flood-color="#354B39" flood-opacity=".17"/></filter>
+    <filter id="smallShadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="1" dy="7" stdDeviation="6" flood-color="#354B39" flood-opacity=".16"/></filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#D8DCD0" stroke-width=".6"/></pattern>
+    <clipPath id="phoneClip"><rect x="161" y="142" width="153" height="298" rx="23"/></clipPath>
+  </defs>
+  <rect width="680" height="600" rx="24" fill="#EAEDE2"/>
+  <rect width="680" height="600" rx="24" fill="url(#grid)"/>
+  <circle cx="362" cy="292" r="200" fill="#E9CE92"/>
+  <circle cx="362" cy="292" r="223" stroke="#C1C8B7" stroke-dasharray="3 9"/>
+  <ellipse cx="350" cy="493" rx="240" ry="36" fill="#1B4035" opacity=".05"/>
+  <!-- An original vector laptop, with a translucent repair-workbench display. -->
+  <g transform="rotate(8 455 325)" filter="url(#shadow)">
+    <rect x="277" y="173" width="282" height="205" rx="12" fill="#9AABA0"/>
+    <rect x="281" y="174" width="279" height="203" rx="11" fill="#243E35"/>
+    <rect x="290" y="184" width="261" height="181" rx="5" fill="url(#screen)"/>
+    <circle cx="421" cy="180" r="2" fill="#748D7C"/>
+    <path d="M313 206h32" stroke="#90A895" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="537" cy="206" r="3" fill="#A6C297"/>
+    <rect x="313" y="234" width="68" height="105" rx="7" fill="#FFFFFF" fill-opacity=".05" stroke="#95B29D" stroke-opacity=".22"/>
+    <path d="M327 253h35M327 267h23M327 312h35M327 326h18" stroke="#91B59D" stroke-opacity=".45" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="463" cy="278" r="43" stroke="#608C71" stroke-width="5"/>
+    <path d="M463 235a43 43 0 0 1 41 56" stroke="#CFDCAF" stroke-width="5" stroke-linecap="round"/>
+    <path d="m449 277 10 10 20-22" stroke="#DCE8CB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M431 340h63" stroke="#A8C49F" stroke-width="3" stroke-linecap="round"/>
+    <path d="m280 378-42 95c-2 5 3 9 8 9h357c6 0 11-4 7-10l-51-94H280Z" fill="url(#metal)"/>
+    <path d="m297 391-24 50h288l-25-50H297Z" fill="#ABB5A9"/>
+    <g stroke="#E6E9DE" stroke-width="3">
+      <path d="M292 402h249M287 414h260M280 427h273"/>
+      <path d="m311 391-16 50m41-50-11 50m35-50-7 50m32-50-3 50m28-50 1 50m24-50 5 50m19-50 10 50m14-50 13 50m13-50 17 50"/>
+    </g>
+    <path d="m387 447-5 24h83l-6-24h-72Z" stroke="#A3AD9F"/>
+    <path d="M240 480h370" stroke="#A9B5A6" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <!-- The phone sits in front, with a friendly abstract restored-screen motif. -->
+  <g transform="rotate(-14 242 292)" filter="url(#shadow)">
+    <rect x="148" y="130" width="178" height="327" rx="32" fill="#768C79"/>
+    <rect x="145" y="128" width="178" height="327" rx="31" fill="url(#phone)" stroke="#FCFFF4" stroke-width="2"/>
+    <rect x="154" y="137" width="160" height="309" rx="25" fill="#253D30"/>
+    <rect x="161" y="142" width="153" height="298" rx="23" fill="url(#phoneScreen)"/>
+    <g clip-path="url(#phoneClip)">
+      <circle cx="185" cy="352" r="116" fill="#789D79"/>
+      <circle cx="305" cy="363" r="115" fill="#4B795E"/>
+      <circle cx="306" cy="445" r="115" fill="#305D4A"/>
+      <path d="M160 265c68-24 105-5 153 48" stroke="#F2F4D6" stroke-opacity=".35" stroke-width="1.3"/>
+      <path d="M160 278c68-24 105-5 153 48" stroke="#F2F4D6" stroke-opacity=".35" stroke-width="1.3"/>
+    </g>
+    <rect x="207" y="149" width="57" height="14" rx="7" fill="#203D30"/>
+    <circle cx="251" cy="156" r="3" fill="#425448"/>
+    <path d="M179 177h18" stroke="#355F44" stroke-width="3" stroke-linecap="round"/>
+    <rect x="279" y="173" width="15" height="8" rx="2" stroke="#355F44" stroke-width="1.2"/>
+    <rect x="282" y="175" width="9" height="4" rx="1" fill="#355F44"/>
+    <path d="M296 176v2" stroke="#355F44"/>
+    <circle cx="237" cy="256" r="36" fill="#F5F5DB" fill-opacity=".8"/>
+    <path d="m222 255 11 11 20-23" stroke="#356648" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="204" y="307" width="67" height="5" rx="2.5" fill="#F4F8E7" fill-opacity=".85"/>
+    <rect x="214" y="320" width="48" height="3" rx="1.5" fill="#F4F8E7" fill-opacity=".6"/>
+    <rect x="212" y="424" width="51" height="3" rx="1.5" fill="#F1F5DC"/>
+    <path d="M144 192v27M144 230v25" stroke="#8D9F8A" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <!-- Small repair tools and loose screws, rather than a stock photograph. -->
+  <g transform="rotate(-29 473 472)" filter="url(#smallShadow)">
+    <path d="M472 418v-34" stroke="#899B89" stroke-width="5"/>
+    <path d="M469 386h6l-1-13h-4l-1 13Z" fill="#A3B09A"/>
+    <rect x="462" y="416" width="22" height="95" rx="10" fill="url(#tool)"/>
+    <path d="M469 432v60M477 432v60" stroke="#947240" stroke-opacity=".5" stroke-width="2"/>
+    <rect x="463" y="509" width="20" height="7" rx="3.5" fill="#C8AC73"/>
+  </g>
+  <g transform="rotate(22 109 428)" filter="url(#smallShadow)"><path d="M100 456v-76M118 456v-76" stroke="#9AAB99" stroke-width="5" stroke-linecap="round"/><path d="m100 380 9-25 9 25" stroke="#9AAB99" stroke-width="5" stroke-linejoin="round"/><path d="m100 455 8 15m10-15-8 15" stroke="#9AAB99" stroke-width="4" stroke-linecap="round"/></g>
+  <g fill="#879B83" stroke="#DBE3D1" stroke-width="1.5"><circle cx="537" cy="515" r="5"/><circle cx="554" cy="500" r="5"/><circle cx="544" cy="486" r="4"/></g>
+  <path d="m534 515 6 0m11-15h6m-16-14h6" stroke="#4C6750" stroke-width="1.3"/>
+  <path d="M571 109v16m-8-8h16" stroke="#42644E" stroke-width="2" stroke-linecap="round"/>
+  <path d="M101 254v10m-5-5h10" stroke="#42644E" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="117" cy="142" r="4" fill="#9AAB84"/>
+  <circle cx="588" cy="361" r="4" fill="#9AAB84"/>
+</svg>
